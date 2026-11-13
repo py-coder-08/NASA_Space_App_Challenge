@@ -63,6 +63,7 @@ window.MGF_CONTENT = {
       { title: "Everything is shared air", body: "A cabin is a closed volume. What one flame produces, CO and soot included, reaches everyone." }
     ]
   },
+   
    /* ---------- Dashboard: What makes Ember Watch different */
    special: {
     heading: "What makes Ember Watch different",
