@@ -63,7 +63,24 @@ window.MGF_CONTENT = {
       { title: "Everything is shared air", body: "A cabin is a closed volume. What one flame produces, CO and soot included, reaches everyone." }
     ]
   },
-
+   /* ---------- Dashboard: What makes Ember Watch different */
+   special: {
+    heading: "What makes Ember Watch different",
+    lead: "Most fire tools were designed for rising smoke and a flame that stands up. Space breaks both assumptions.",
+    rows: [
+      ["Looks for a smoke plume that rises", "Reads flame temperature, size, radiation and gas, because nothing rises in microgravity"],
+      ["Treats every flame as one thing", "Separates hot flames from cool flames, which burn at low temperature and are nearly invisible"],
+      ["Gives one alarm threshold", "Scores seven weighted factors, then lets hard safety rules raise the level"],
+      ["Explains little about the result", "Walks a decision tree and shows the numbers at every step"],
+      ["Starts from Earth experiments", "Starts from microgravity droplet-combustion measurements and says where it is assuming"],
+      ["Fixed examples only", "Lets you change pressure, oxygen, droplet size and airflow and watch a 3D flame respond"]
+    ],
+    col1: "A typical Earth-style approach",
+    col2: "Ember Watch",
+    earthCaption: "Looks for a teardrop flame and a rising smoke column.",
+    spaceCaption: "Expects a sphere, no plume, and a cool flame you may not see."
+  },
+   
   /* ---------- Dashboard: ranking section ---------- */
   ranking: {
     heading: "Risk ranking across the NASA data sets",
